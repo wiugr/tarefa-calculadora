@@ -1,0 +1,64 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main_container {
+    background-color: rgb(65, 0, 187);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.calculadora {
+    width: 350px;
+    min-height: 420px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.input {
+    margin: 10px;
+}
+
+.text_area {
+    resize: none;
+    min-width: 330px;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.btn_average {
+    margin-top: 10px;
+}
+
+.btn_average {
+    margin: 10px;
+}
+
+.average {
+    margin: 10px;
+}
+
+::-webkit-scrollbar {
+    background-color: white;
+    width: 5px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: brown;
+    border-radius: 5px;
+}
